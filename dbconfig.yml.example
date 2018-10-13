@@ -1,0 +1,5 @@
+development:
+    dialect: mysql
+    datasource: dbuser:dbpass@tcp(127.0.0.1:3306)/dbname?parseTime=true
+    dir: migrations/mysql
+    table: migrations

@@ -1,0 +1,5 @@
+simple-phonebook-go
+glide.lock
+vendor/
+env.json
+dbconfig.yml

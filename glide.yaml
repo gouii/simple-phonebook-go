@@ -1,0 +1,14 @@
+package: github.com/gouii/simple-phonebook-go
+import:
+- package: github.com/KulinaID/kulina-api-core
+  version: ^0.1.0
+  subpackages:
+  - conf
+- package: github.com/gorilla/mux
+  version: ^1.6.2
+- package: github.com/mmuflih/go-httplib
+  subpackages:
+  - httplib
+- package: github.com/mmuflih/envgo
+- package: github.com/gorilla/handlers
+  version: ^1.4.0
